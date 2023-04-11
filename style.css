@@ -22,9 +22,11 @@ nav a {
   color: black;
   text-decoration: none;
   transition: border 1s;
+  border: 0px solid #185B0D;
 }
 nav a:hover {
-  border: 2px dotted #185B0D;
+  border: 2px solid #185B0D;
+  background: #6BBC4F;
 }
 img {
   height: 300px;
