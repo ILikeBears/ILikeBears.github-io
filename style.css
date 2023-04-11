@@ -22,12 +22,13 @@ nav a {
   color: black;
   text-decoration: none;
 
-  transition: border 1s;
-  transition: background 2s;
+  transition: font-size 1s;
+  transition: background 0.5s;
 }
 nav a:hover {
-  border: 2px solid #185B0D;
+  border: 2px dashed #185B0D;
   background: #6BBC4F;
+  font-size: 2em;
 }
 img {
   height: 300px;
