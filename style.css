@@ -22,11 +22,11 @@ nav a {
   color: black;
   text-decoration: none;
 }
-#circle {
+img {
   height: 300px;
   width: 300px;
   border-radius: 150px;
-  background: #6BBC4F;
+  
   display: inline-block;
   vertical-align: middle;
   margin: 15px;
