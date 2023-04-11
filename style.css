@@ -21,11 +21,13 @@ nav a {
   margin: 5px;
   color: black;
   text-decoration: none;
+  transition: margin 0.5s;
   transition: background 0.5s;
 }
 nav a:hover {
   border: 2px dashed #185B0D;
   background: #6BBC4F;
+  margin: 10px;
 }
 img {
   height: 300px;
