@@ -24,6 +24,14 @@ nav a {
   transition: margin 0.5s;
   transition: background 0.5s;
 }
+nav a1 {
+  margin: 5px;
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  border: 3px solid #185B0D;
+
+}
 nav a:hover {
   border: 2px dashed #185B0D;
   background: #6BBC4F;
