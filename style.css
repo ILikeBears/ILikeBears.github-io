@@ -18,11 +18,10 @@ nav {
   display: inline-block;
 }
 nav a {
-  margin: 5px;
+  margin: 7px;
   color: black;
   text-decoration: none;
-  transition: margin 0.5s;
-  transition: background 0.5s;
+
 }
 nav a1 {
   margin: 5px;
@@ -35,7 +34,6 @@ nav a1 {
 nav a:hover {
   border: 2px dashed #185B0D;
   background: #6BBC4F;
-  margin: 15px;
 }
 img {
   height: 300px;
