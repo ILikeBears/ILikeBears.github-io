@@ -60,7 +60,6 @@ img {
   margin: auto;
   margin-top: 15px;
 }
-
 .typewriter {
   overflow: hidden;
   border-right: 0.15em solid black;
@@ -74,8 +73,41 @@ img {
   from { width: 0}
   to { width: 100%}
 }
-
 @keyframes blink-caret {
   from, to { border-color: transparent}
   50% { border-color: black;}
+}
+.playground-dropdown {
+  display: inline-block;
+  position: relative;
+  transition: background 0.5s;
+}
+.playground-dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: visible;
+  border: 2px dashed #185B0D;
+  border-top: 2px solid black;
+  padding-right: 2px;
+  box-sizing: border-box;
+}
+.playground-dropdown:hover .playground-dropdown-content {
+  display: block;
+  background-color: #CAE4C6;
+  z-index: 2;
+}
+.playground-dropdown-content a {
+  display: block;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+.playground-dropdown:hover #button-dropdown {
+  border: 2px dashed #185B0D;
+  border-bottom: 0px;
+}
+#button-dropdown {
+  box-sizing: border-box;
+  
 }
