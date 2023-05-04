@@ -21,10 +21,10 @@ nav a {
   margin: 7px;
   color: black;
   text-decoration: none;
-
+  transition: background 0.5s;
 }
 nav a1 {
-  margin: 5px;
+  margin: 3px;
   color: black;
   text-decoration: none;
   font-weight: bolder;
@@ -33,6 +33,7 @@ nav a1 {
 }
 nav a:hover {
   border: 2px dashed #185B0D;
+  margin: 5px;
   background: #6BBC4F;
 }
 img {
@@ -58,4 +59,23 @@ img {
   display: block;
   margin: auto;
   margin-top: 15px;
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0}
+  to { width: 100%}
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent}
+  50% { border-color: black;}
 }
